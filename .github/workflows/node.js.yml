@@ -7,7 +7,7 @@ on:
       - 'main'
 
 jobs:
-  Expo_Client_CI:
+  Squirrel_Client_CI:
     runs-on: ubuntu-latest
 
     strategy:
@@ -37,7 +37,7 @@ jobs:
         description: "CI success"
         status: ${{ job.status }}
         content: "CI 성공"
-        username: Expo Client CI bot
+        username: Squirrel Client CI bot
         url: "https://github.com/Team-Ampersand/Squirrel-client"
         color: 4CAF50
 
@@ -50,6 +50,6 @@ jobs:
         description: "CI failed"
         content: "안돼 안바꿔줘 돌아가"
         status: ${{ job.status }}
-        username: Expo Client CI bot
+        username: Squirrel Client CI bot
         url: "https://github.com/Team-Ampersand/Squirrel-client"
         color: e74c3c
