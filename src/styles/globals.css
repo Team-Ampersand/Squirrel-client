@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --PRIMARY_P10: 111, 122, 236;
+    --PRIMARY_P20: 238, 240, 253;
+    --PRIMARY_P30: 197, 202, 247;
+    --NEUTRAL_N10: 41, 46, 61;
+    --NEUTRAL_N20: 101, 107, 128;
+    --NEUTRAL_N30: 187, 187, 204;
+    --NEUTRAL_N40: 226, 226, 238;
+    --NEUTRAL_N50: 242, 242, 244;
+    --BACKGROUND_BG: 247, 247, 249;
+    --BACKGROUND_CARD: 253, 253, 253;
+    --SYSTEM_ERROR: 216, 77, 77;
+    --SYSTEM_POSITIVE: 46, 133, 70;
+    --SUB_GREEN: 155, 218, 147;
+    --SUB_YELLOW: 238, 225, 112;
+    --SUB_RED: 243, 161, 153;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --PRIMARY_P10: 89, 102, 233;
+      --PRIMARY_P20: 29, 33, 54;
+      --PRIMARY_P30: 36, 41, 93;
+      --NEUTRAL_N10: 205, 205, 213;
+      --NEUTRAL_N20: 129, 129, 152;
+      --NEUTRAL_N30: 98, 98, 116;
+      --NEUTRAL_N40: 41, 41, 48;
+      --NEUTRAL_N50: 30, 30, 38;
+      --BACKGROUND_BG: 31, 30, 43;
+      --BACKGROUND_CARD: 23, 22, 31;
+      --SYSTEM_ERROR: 255, 125, 125;
+      --SYSTEM_POSITIVE: 94, 255, 139;
+      --SUB_GREEN: 121, 206, 111;
+      --SUB_YELLOW: 233, 216, 68;
+      --SUB_RED: 238, 120, 109;
+    }
+  }
+
+  /* Reset styles */
+  *,
+  *::before,
+  *::after {
+    @apply m-0 box-border border-0 p-0;
+  }
+
+  /* Specific element styles */
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video,
+  input {
+    @apply m-0 box-border border-0 p-0;
+  }
+
+  body {
+    font-family: SUIT;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    @apply outline-none;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    @apply text-transparent;
+  }
+
+  button {
+    @apply cursor-pointer border-none outline-none;
+  }
+}
