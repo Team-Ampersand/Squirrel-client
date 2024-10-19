@@ -1,4 +1,5 @@
 import TanstackProviders from '@/lib/TanstackProviders';
+import ToastProvider from '@/lib/ToastProvider';
 import { suit } from '@/styles/fonts';
 import '../styles/globals.css';
 
@@ -10,7 +11,9 @@ export default function RootLayout({
   return (
     <html lang="ko" className={suit.variable}>
       <body className="font-SUIT">
-        <TanstackProviders>{children}</TanstackProviders>
+        <TanstackProviders>
+          <ToastProvider>{children}</ToastProvider>
+        </TanstackProviders>
       </body>
     </html>
   );

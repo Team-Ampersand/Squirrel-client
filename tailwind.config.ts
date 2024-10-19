@@ -34,6 +34,8 @@ const config: Config = {
           yellow: 'rgb(var(--SUB_YELLOW))',
           red: 'rgb(var(--SUB_RED))',
         },
+        black: 'rgb(var(--BLACK))',
+        white: 'rgb(var(--WHITE))',
       },
       fontFamily: {
         SUIT: ['SUIT'],

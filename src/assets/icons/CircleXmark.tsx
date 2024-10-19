@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Xmark = () => {
+const CircleXmark = () => {
   return (
     <svg
       width="24"
@@ -29,4 +29,4 @@ const Xmark = () => {
   );
 };
 
-export default Xmark;
+export default CircleXmark;
