@@ -1,6 +1,6 @@
 import React from 'react';
 
-const checkBox = () => {
+const CheckBox = () => {
   return (
     <svg
       width="24"
@@ -17,4 +17,4 @@ const checkBox = () => {
   );
 };
 
-export default checkBox;
+export default CheckBox;
