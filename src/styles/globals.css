@@ -19,6 +19,8 @@
     --SUB_GREEN: 155, 218, 147;
     --SUB_YELLOW: 238, 225, 112;
     --SUB_RED: 243, 161, 153;
+    --BLACK: 0, 0, 0;
+    --WHITE: 255, 255, 255;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -38,6 +40,8 @@
       --SUB_GREEN: 121, 206, 111;
       --SUB_YELLOW: 233, 216, 68;
       --SUB_RED: 238, 120, 109;
+      --BLACK: 0, 0, 0;
+      --WHITE: 255, 255, 255;
     }
   }
 
