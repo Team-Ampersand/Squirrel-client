@@ -46,8 +46,8 @@ const config: Config = {
         h3: ['1.375rem', { lineHeight: '1.125rem', fontWeight: '700' }],
         h4: ['1rem', { lineHeight: '1.25rem', fontWeight: '700' }],
         body1: ['1rem', { lineHeight: '1.5rem', fontWeight: '500' }],
-        body2: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '500' }],
-        body3: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '600' }],
+        body2: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '600' }],
+        body3: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '500' }],
       },
       spacing: {
         '0': '0',
@@ -60,6 +60,7 @@ const config: Config = {
         '6': '1.5rem', // 24px
         '7': '1.75rem', // 28px
         '8': '2rem', // 32px
+        '9': '2.5rem', //40px
         px: '1px',
       },
       borderRadius: {
