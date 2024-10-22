@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
-import Logo from '.';
+import Filter from '.';
 
 const meta = {
-  title: 'Components/Common/atoms/Logo',
-  component: Logo,
+  title: 'Components/Common/organisms/Filter',
+  component: Filter,
   tags: ['autodocs'],
-} satisfies Meta<typeof Logo>;
+} satisfies Meta<typeof Filter>;
 
 export default meta;
 
