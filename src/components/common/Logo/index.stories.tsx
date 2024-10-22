@@ -1,29 +1,20 @@
 import { Meta, StoryObj } from '@storybook/react';
-import Button from '.';
+import Logo from '.';
 
 const meta = {
-  title: 'Components/Common/atoms/Button',
-  component: Button,
+  title: 'Components/Common/Logo',
+  component: Logo,
   tags: ['autodocs'],
   argTypes: {
     text: { control: 'text' },
     disabled: { control: 'boolean' },
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta<typeof Logo>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  args: {
-    text: 'Text',
-  },
-};
-
-export const Disabled: Story = {
-  args: {
-    text: 'Text',
-    disabled: true,
-  },
+  args: {},
 };

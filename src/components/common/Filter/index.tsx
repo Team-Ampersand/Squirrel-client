@@ -1,9 +1,9 @@
 import React from 'react';
-import FilterButton from '../../molecules/FilterButton';
-import FilterHeader from '../../molecules/FilterHeader';
-import FilterToggle from '../../molecules/FilterToggle';
+import FilterButton from './atoms/FilterButton';
+import FilterHeader from './atoms/FilterHeader';
+import FilterToggle from './atoms/FilterToggle';
 
-const Filter = () => {
+const FilterWrapper = () => {
   return (
     <div className="flex max-w-[320px] flex-col gap-7 bg-background-card p-6">
       <FilterHeader text="필터" />
@@ -25,4 +25,4 @@ const Filter = () => {
   );
 };
 
-export default Filter;
+export default FilterWrapper;
