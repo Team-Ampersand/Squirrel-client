@@ -37,14 +37,16 @@ const config: Config = {
         black: 'rgb(var(--BLACK))',
         white: 'rgb(var(--WHITE))',
       },
+
       fontFamily: {
         SUIT: ['SUIT'],
       },
       fontSize: {
-        h1: ['2.25rem', { lineHeight: '2.8125rem', fontWeight: '900' }],
+        h1: ['1.75rem', { lineHeight: '2.1837rem', fontWeight: '900' }],
         h2: ['2rem', { lineHeight: '2.5rem', fontWeight: '700' }],
         h3: ['1.375rem', { lineHeight: '1.125rem', fontWeight: '700' }],
         h4: ['1rem', { lineHeight: '1.25rem', fontWeight: '700' }],
+        h5: ['1.125rem', { lineHeight: '1.4038rem', fontWeight: '500' }],
         body1: ['1rem', { lineHeight: '1.5rem', fontWeight: '500' }],
         body2: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '600' }],
         body3: ['0.875rem', { lineHeight: '1.125rem', fontWeight: '500' }],
