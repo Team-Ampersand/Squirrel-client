@@ -1,4 +1,4 @@
-import Header from '@/components/common/molecules/Header';
+import Header from '@/components/common/Header';
 
 export default function Music() {
   return (

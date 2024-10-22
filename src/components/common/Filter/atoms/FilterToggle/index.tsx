@@ -1,5 +1,5 @@
 import React from 'react';
-import ToggleSwitch from '../../atoms/ToggleSwitch';
+import ToggleSwitch from '../../../ToggleSwitch';
 
 interface Props {
   text: string;

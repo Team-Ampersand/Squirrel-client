@@ -1,6 +1,6 @@
 import React from 'react';
 import { Lock, Person } from '@/assets/icons';
-import TextField from '@/components/common/atoms/TextField';
+import TextField from '@/components/common/TextField';
 
 const InputWrapper = () => {
   return (
