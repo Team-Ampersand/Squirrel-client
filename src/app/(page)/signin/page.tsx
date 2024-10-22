@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '@/components/common/Logo';
+import Logo from '@/components/common/atoms/Logo';
 import ButtonWrapper from '@/components/Signin/molecules/ButtonWrapper';
 import InputWrapper from '@/components/Signin/molecules/InputWrapper';
 
