@@ -1,12 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
-import ToggleSwitch from '.';
+import Logo from '.';
 
 const meta = {
-  title: 'Components/Common/ToggleSwitch',
-  component: ToggleSwitch,
+  title: 'Components/Common/atoms/Logo',
+  component: Logo,
   tags: ['autodocs'],
-  argTypes: {},
-} satisfies Meta<typeof ToggleSwitch>;
+} satisfies Meta<typeof Logo>;
 
 export default meta;
 
