@@ -1,4 +1,4 @@
-import { Signin } from '@/views/session/signin';
+import { Signin } from '@/views/signin';
 
 const Page = () => {
   return <Signin />;

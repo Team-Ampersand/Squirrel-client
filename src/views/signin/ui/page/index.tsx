@@ -1,5 +1,5 @@
 import React from 'react';
-import SigninContainer from '@/widgets/session/signin/ui/SigninContainer';
+import { SigninContainer } from '@/widgets/signin';
 
 const Signin = () => {
   return <SigninContainer />;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SigninForm from '@/features/session/signin/ui/SigninForm';
+import { SigninForm } from '@/features/signin';
 import Logo from '@/shared/ui/Logo';
 
 const SigninContainer = () => {
