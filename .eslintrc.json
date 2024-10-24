@@ -27,11 +27,13 @@
     "import/resolver": {
       "alias": {
         "map": [
-          ["@apis", "./src/apis"],
-          ["@page", "./src/page"],
-          ["@types", "./src/types"],
-          ["@util", "./src/util"]
+          ["@features", "./src/features"],
+          ["@entities", "./src/entities"],
+          ["@shared", "./src/shared"],
+          ["@views", "./src/views"],
+          ["@widgets", "./src/widgets"]
         ],
+
         "extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
       }
     }

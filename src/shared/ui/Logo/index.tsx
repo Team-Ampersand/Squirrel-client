@@ -1,5 +1,5 @@
 import React from 'react';
-import { Squirrel } from '@/assets/svg';
+import { Squirrel } from '@/shared/assets/svg';
 
 const Logo = () => {
   return (
