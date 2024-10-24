@@ -8,7 +8,7 @@ import {
   forwardRef,
   useState,
 } from 'react';
-import { CircleXmark, EyeSelected, Eye } from '@/assets/icons';
+import { CircleXmark, EyeSelected, Eye } from '@/shared/assets/icons';
 
 interface Props
   extends DetailedHTMLProps<

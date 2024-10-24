@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import React from 'react';
 import Logo from '../Logo';
 import NavItem from './atoms/NavItem';
-import { Book, Music } from '@/assets/svg';
+import { Book, Music } from '@/shared/assets/svg';
 
 const navItems = [
   { href: '/', icon: Book, text: '예약' },

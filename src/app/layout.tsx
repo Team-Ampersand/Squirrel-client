@@ -1,7 +1,7 @@
-import TanstackProviders from '@/lib/TanstackProviders';
-import ToastProvider from '@/lib/ToastProvider';
-import { suit } from '@/styles/fonts';
-import '../styles/globals.css';
+import TanstackProviders from '@/shared/lib/TanstackProviders';
+import ToastProvider from '@/shared/lib/ToastProvider';
+import '../shared/styles/globals.css';
+import { suit } from '@/shared/styles/fonts';
 
 export default function RootLayout({
   children,
